@@ -8,6 +8,7 @@ class YoDate {
     return ddmmmmy(date);
   }
 
+  /// return 12 Desember
   static String getDateId(DateTime date) {
     return DateFormat("dd MMMM y", "id_ID").format(date);
   }
