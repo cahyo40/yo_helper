@@ -19,11 +19,12 @@ yo_helper:
 
 **list fungsi dari Helper Date**
 
-|fungsi|paramter|hasil|
-|getDate|date DateTime| 12 December 2022|
-|getDateId| date DateTime| 12 Desember 2022|
-|ddmmmmy|date DateTime|12 December 2022|
-|getCustomDate|date DateTime, String format| sesuai format|
+| fungsi        | paramter                     | hasil            |
+| ------------- | ---------------------------- | ---------------- |
+| getDate       | date DateTime                | 12 December 2022 |
+| getDateId     | date DateTime                | 12 Desember 2022 |
+| ddmmmmy       | date DateTime                | 12 December 2022 |
+| getCustomDate | date DateTime, String format | sesuai format    |
 
 penggunaan dari _Helper Date_ yaitu dengan cara
 
