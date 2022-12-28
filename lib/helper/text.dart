@@ -4,7 +4,8 @@ class YoCurrency {
   YoCurrency._();
 
   static String rupiah({required int number}) {
-    return NumberFormat.simpleCurrency(locale: "id_ID").format(number);
+    return NumberFormat.currency(locale: "id_ID", symbol: "Rp. ")
+        .format(number);
   }
 
   static String dollar({required int number}) {
