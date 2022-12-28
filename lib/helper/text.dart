@@ -8,6 +8,6 @@ class YoCurrency {
   }
 
   static String dollar({required int number}) {
-    return NumberFormat.simpleCurrency(locale: "us_US").format(number);
+    return NumberFormat.simpleCurrency(locale: "us").format(number);
   }
 }
