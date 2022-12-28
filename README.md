@@ -53,12 +53,12 @@ penggunaan dari _Helper Currency_ yaitu dengan cara
 YoDate.fungsi yang digunakan
 ```
 
-**_Contoh Penggunaan Helper Currency**
+**_Contoh Penggunaan Helper Currency_**
 
 ```dart
 
 import 'package:yo_helper/helper/currency.dart';
 
- YoCurrency.rupiah(number: 100000),
+YoCurrency.rupiah(number: 100000),
 
 ```
