@@ -9,6 +9,6 @@ class YoCurrency {
   }
 
   static String dollar({required int number}) {
-    return NumberFormat.currency(locale: "en_US", symbol: "€").format(number);
+    return NumberFormat.currency(locale: "en_US", symbol: "\$ ").format(number);
   }
 }
