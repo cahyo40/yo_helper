@@ -47,11 +47,6 @@ YoDate.getDate(DateTime.now());
 | dollar     | number int                | $ 400 |
 
 
-penggunaan dari _Helper Currency_ yaitu dengan cara
-
-```dart
-YoDate.fungsi yang digunakan
-```
 
 **_Contoh Penggunaan Helper Currency_**
 
