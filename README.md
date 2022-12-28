@@ -26,13 +26,8 @@ yo_helper:
 | ddmmmmy       | date DateTime                | 12 December 2022 |
 | getCustomDate | date DateTime, String format | sesuai format    |
 
-penggunaan dari _Helper Date_ yaitu dengan cara
 
-```dart
-YoDate.fungsi yang digunakan
-```
-
-**_Contoh Penggunaan Format_**
+**_Contoh Penggunaan Helper Date_**
 
 ```dart
 
@@ -43,3 +38,27 @@ YoDate.getDate(DateTime.now());
 ```
 
 ### Currency
+
+**list fungsi dari Helper Currency**
+
+| fungsi        | paramter                     | hasil            |
+| ------------- | ---------------------------- | ---------------- |
+| rupiah       | number int                | Rp. 100.000,00 |
+| dollar     | number int                | $ 400 |
+
+
+penggunaan dari _Helper Currency_ yaitu dengan cara
+
+```dart
+YoDate.fungsi yang digunakan
+```
+
+**_Contoh Penggunaan Helper Currency**
+
+```dart
+
+import 'package:yo_helper/helper/currency.dart';
+
+ YoCurrency.rupiah(number: 100000),
+
+```
