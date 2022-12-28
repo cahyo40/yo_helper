@@ -36,6 +36,8 @@ YoDate.fungsi yang digunakan
 
 ```dart
 
+import 'package:yo_helper/helper/date.dart';
+
 YoDate.getDate(DateTime.now());
 
 ```
